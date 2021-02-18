@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Basic Tables</title>
+    <meta name="author" content="Samuel J. Mixon">
+    <meta
+      name="description"
+      content="HTML table basics tutorial from MDN.">
+    <meta charset="utf-8">
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../../../assets/ico/sjm.ico">
+    <link rel="stylesheet" href="minimal-table.css" type="text/css">
+  </head>
+  <body>
+    <h1>HTML Table Basics</h1>
+    <h2>A Basic Table</h2>
+    <table>
+      <tr>
+        <td>Hi, I'm your first cell.</td>
+        <td>I'm your second cell.</td>
+        <td>I'm your third cell.</td>
+        <td>I'm your fourth cell.</td>
+      </tr>
+      <tr>
+        <td>Second row, first cell.</td>
+        <td>Cell 2.</td>
+        <td>Cell 3.</td>
+        <td>Cell 4.</td>
+      </tr>
+    </table>
+    <h2>Adding Headers with <code>&lt;th&gt;</code> Elements</h2>
+    <table>
+      <tr>
+        <th>&nbsp;</th>
+        <th>Knocky</th>
+        <th>Flor</th>
+        <th>Ella</th>
+        <th>Juan</th>
+      </tr>
+      <tr>
+        <th>Breed</th>
+        <td>Jack Russell</td>
+        <td>Poodle</td>
+        <td>Streetdog</td>
+        <td>Cocker Spaniel</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>16</td>
+        <td>9</td>
+        <td>10</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <th>Owner</th>
+        <td>Mother-in-law</td>
+        <td>Me</td>
+        <td>Me</td>
+        <td>Sister-in-law</td>
+      </tr>
+      <tr>
+        <th>Eating Habits</th>
+        <td>Eats everyone's leftovers</td>
+        <td>Nibbles at food</td>
+        <td>Hearty eater</td>
+        <td>Will eat till he explodes</td>
+      </tr>
+    </table>
+    <h2>Allowing cells to span multiple rows and columns</h2>
+    <table>
+      <tr>
+        <th colspan="2">Animals</th>
+      </tr>
+      <tr>
+        <th colspan="2">Hippopotamus</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Horse</th>
+        <td>Mare</td>
+      </tr>
+      <tr>
+        <td>Stallion</td>
+      </tr>
+      <tr>
+        <th colspan="2">Crocodile</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Chicken</th>
+        <td>Hen</td>
+      </tr>
+      <tr>
+        <td>Rooster</td>
+      </tr>
+    </table>
+  </body>
+</html>
