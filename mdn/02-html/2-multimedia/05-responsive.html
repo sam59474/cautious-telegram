@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Responsive</title>
+    <meta name="author" content="Samuel J. Mixon">
+    <meta
+      name="description"
+      content="Responsive Images tutorial from MDN.">
+    <meta charset="utf-8">
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../../../assets/ico/sjm.ico">
+  </head>
+  <body>
+    <h1>Responsive Images</h1>
+    <h2>Different-Size Resolution Switching</h2>
+    <img
+      srcset="
+        ../../../assets/jpg/dinosaur-small.jpg 171w,
+        ../../../assets/jpg/dinosaur-large.jpg 800w"
+      sizes="
+        (max-width: 500px) 200px,
+        800px"
+      src="../../../assets/jpg/dinosaur-small.jpg"
+      alt="The T-Rex from before"
+    >
+    <h2>Same-Size Resolution Switching</h2>
+    <p>needs css to work</p>
+    <img
+      srcset="
+        ../../../assets/jpg/tiger-walk-small.jpg,
+        ../../../assets/jpg/tiger-walk.jpg 10x"
+      src="../../../assets/jpg/tiger-walk.jpg"
+      alt="Tiger Walk!"
+    >
+    <h2>Art Direction</h2>
+    <picture>
+      <source
+        media="(max-width: 600px)"
+        srcset="../../../assets/jpg/cu-ul-crop.jpg"
+      >
+      <img src="../../../assets/jpg/cu-ul.jpg" alt="g dang it">
+    </picture>
+  </body>
+</html>
