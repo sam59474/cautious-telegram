@@ -1,0 +1,48 @@
+/*
+  reset.css
+
+  Reduces browser default inconsistencies. Based on Eric Meyer's public-domain
+  reset stylesheet https://meyerweb.com/eric/tools/css/reset/
+
+  Sun 2021-02-28
+*/
+
+/* Box Model and Text Style Resets */
+html, body, div, span,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, q, pre, code, kbd, time
+abbr, address, cite, strong, em, sub, sup,
+table, caption, thead, tbody, tfoot, tr, th, td,
+dl, dt, dd, ol, ul, li,
+header, nav, footer, section,
+img, audio, video
+{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Other Resets */
+body
+{
+  line-height: 1;
+}
+
+ol, ul
+{
+  list-style: none;
+}
+
+blockquote, q
+{
+  quotes: none;
+}
+
+table
+{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
