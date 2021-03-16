@@ -6,13 +6,13 @@ html
 
 header, footer
 {
-  background-color: rgb(0, 32, 91);
+  background-color: rgb(0, 94, 184);
   padding: 1em;
 }
 
 main
 {
-  background-color: rgb(0, 94, 184);
+  background-color: rgb(0, 32, 91);
   padding: 1em;
 }
 
@@ -24,6 +24,16 @@ h1
 h2
 {
   font-size: 2em;
+}
+
+h3
+{
+  font-size: 2em;
+}
+
+h4
+{
+  font-size: 1.5em;
 }
 
 a
@@ -38,7 +48,7 @@ p
   margin-bottom: 1.0em;
 }
 
-address, em
+address, em, var
 {
   font-style: italic;
 }
@@ -46,4 +56,22 @@ address, em
 strong
 {
   font-weight: bold;
+}
+
+sub, sup
+{
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup
+{
+  top: -0.5em;
+}
+
+sub
+{
+  bottom: -0.25em;
 }
